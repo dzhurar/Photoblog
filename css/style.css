@@ -11,10 +11,15 @@ body{
     width: 936px;
     margin: 0 auto;
     padding: 0 15px;
-    border: 2px solid red;
 }
 .header{
     padding-top: 71px;
+}
+.header-list{
+    width: 555px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 .header-link{
     font-size: 14px;
@@ -29,15 +34,31 @@ body{
     padding-top: 92px;
     padding-bottom: 66px;
 }
+.card-list{
+    width: 906px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card-item{
+    width: 420px;
+    margin-bottom: 130px;
+}
+.card-img{
+    width: 420px;
+    height: 280;
+    margin-bottom: 32px;
+}
 .card-name{
     font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
     color: var(--card-name-color);
     text-transform: uppercase;
 }
-.card-title,
-.title{
+.card-title{
     color: var(--text-color);
+    margin-top: 32px;
+    margin-bottom: 40px;
 }
 .card-text{
     font-size: 14px;
@@ -48,7 +69,17 @@ body{
     background-color:#fff ;
     color: var(--text-color);
     border: 1px solid var(--text-color);
+    padding: 20px 48px;
+}
+.button:hover,
+ .button:focus{
+    color: var(--hover-color);
+    border: 1px solid var(--hover-color);
 }
 .card-title{
     font-size: 30px;
+}
+.wrap-button{
+    display: flex;
+    justify-content: center;
 }
