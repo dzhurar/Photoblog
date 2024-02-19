@@ -1,0 +1,19 @@
+.header{
+    padding-top: 71px;
+}
+.header__nav-list{
+    width: 555px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header__nav-link{
+    font-size: 14px;
+    color: var(--nav-color);
+    text-transform: uppercase;
+
+    &:hover,
+    &:focus{
+        color: $hover-color;
+    }
+}

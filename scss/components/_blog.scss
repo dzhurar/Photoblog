@@ -1,0 +1,52 @@
+.main{
+    padding-top: 92px;
+    padding-bottom: 66px;
+}
+.main__card-list{
+    width: 906px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main__card-item{
+    width: 420px;
+    margin-bottom: 130px;
+}
+.main__card-img{
+    width: 420px;
+    height: 280;
+    margin-bottom: 32px;
+}
+.main__card-name{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    color: $card-name-color;
+    text-transform: uppercase;
+}
+.main__card-title{
+    color: $text-color;
+    margin-top: 32px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+.main__card-text{
+    font-size: 14px;
+    color: $text-color;
+}
+.main__wrap-button{
+    display: flex;
+    justify-content: center;
+}
+.main__button{
+    font-size: 14px;
+    background-color:#fff ;
+    color: $text-color;
+    border: 1px solid $text-color;
+    padding: 20px 48px;
+
+    &:hover,
+    &:focus{
+        color: $hover-color;
+        border: 1px solid $hover-color;
+    }
+}

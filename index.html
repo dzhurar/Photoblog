@@ -7,69 +7,66 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     <header class="header">
         <div class="container">
-            <nav class="header-nav">
-                <ul class="header-list">
-                    <li><a class="header-link" href="#">lifestyle</a></li>
-                    <li><a class="header-link" href="#">photodiary</a></li>
-                    <li><a class="header-link" href="#">music</a></li>
-                    <li><a class="header-link" href="#">travel</a></li>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li><a class="header__nav-link" href="#">lifestyle</a></li>
+                    <li><a class="header__nav-link" href="#">photodiary</a></li>
+                    <li><a class="header__nav-link" href="#">music</a></li>
+                    <li><a class="header__nav-link" href="#">travel</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main class="main">
         <div class="container">
-            <h1 hidden class="title">Photoblog</h1>
-            <div class="wrap">
-                <ul class="card-list">
-                    <li class="card-item">
-                        <img class="card-img" src="images/img (6).png" alt="фото1">
-                        <span class="card-name">lifestyle</span>
-                        <h2 class="card-title">More than just a music festival</h2>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, nostrum repellendus, odit voluptate, architecto expedita dolorem iure maiores a odio nisi unde vero nam doloribus modi doloremque sit. Repellendus, incidunt.</p>
+            <h1 hidden class="main__title">Photoblog</h1>
+                <ul class="main__card-list">
+                    <li class="main__card-item">
+                        <img class="main__card-img" src="images/img (6).png" alt="фото1">
+                        <span class="main__card-name">lifestyle</span>
+                        <h2 class="main__card-title">More than just a music festival</h2>
+                        <p class="main__card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, nostrum repellendus, odit voluptate, architecto expedita dolorem iure maiores a odio nisi unde vero nam doloribus modi doloremque sit. Repellendus, incidunt.</p>
                     </li>
-                    <li class="card-item">
-                        <img class="card-img" src="images/image (4).png" alt="фото2">
-                        <span class="card-name">lifestyle</span>
-                        <h2 class="card-title">Life tastes better with coffee</h2>
-                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium provident iure deserunt, unde ad iste! Illo possimus eius temporibus iure maxime dolores quod aperiam eligendi, at quasi animi, laboriosam doloremque?</p>
+                    <li class="main__card-item">
+                        <img class="main__card-img" src="images/image (4).png" alt="фото2">
+                        <span class="main__card-name">lifestyle</span>
+                        <h2 class="main__card-title">Life tastes better with coffee</h2>
+                        <p class="main__card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium provident iure deserunt, unde ad iste! Illo possimus eius temporibus iure maxime dolores quod aperiam eligendi, at quasi animi, laboriosam doloremque?</p>
                     </li>
-                    <li class="card-item">
-                        <img class="card-img" src="images/image (3).png" alt="фото3">
-                        <span class="card-name">photodiary</span>
-                        <h2 class="card-title">American dream</h2>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, nihil. Molestias, provident. Sint obcaecati dignissimos incidunt? Molestias sint corporis ad aliquid similique in! Mollitia est doloremque ullam ducimus laborum voluptatum?</p>
+                    <li class="main__card-item">
+                        <img class="main__card-img" src="images/image (3).png" alt="фото3">
+                        <span class="main__card-name">photodiary</span>
+                        <h2 class="main__card-title">American dream</h2>
+                        <p class="main__card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, nihil. Molestias, provident. Sint obcaecati dignissimos incidunt? Molestias sint corporis ad aliquid similique in! Mollitia est doloremque ullam ducimus laborum voluptatum?</p>
                     </li>
-                    <li class="card-item">
-                        <img class="card-img" src="images/image (2).png" alt="фото4">
-                        <span class="card-name">photodiary</span>
-                        <h2 class="card-title">A day exploring the Alps</h2>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ea repellat eum. Eligendi quae ipsam distinctio corrupti odit deleniti ea ducimus ipsum blanditiis molestiae, facilis, temporibus neque, recusandae id laboriosam?</p>
+                    <li class="main__card-item">
+                        <img class="main__card-img" src="images/image (2).png" alt="фото4">
+                        <span class="main__card-name">photodiary</span>
+                        <h2 class="main__card-title">A day exploring the Alps</h2>
+                        <p class="main__card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ea repellat eum. Eligendi quae ipsam distinctio corrupti odit deleniti ea ducimus ipsum blanditiis molestiae, facilis, temporibus neque, recusandae id laboriosam?</p>
                     </li>
-                    <li class="card-item">
-                        <img class="card-img" src="images/image (1).png" alt="фото5">
-                        <span class="card-name">lifestyle</span>
-                        <h2 class="card-title">Top 10 song for running</h2>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores incidunt unde aspernatur eius quo odio vel modi nisi, amet doloremque voluptate, nam id ducimus at ipsum expedita officia deserunt? Excepturi?</p>
+                    <li class="main__card-item">
+                        <img class="main__card-img" src="images/image (1).png" alt="фото5">
+                        <span class="main__card-name">lifestyle</span>
+                        <h2 class="main__card-title">Top 10 song for running</h2>
+                        <p class="main__card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores incidunt unde aspernatur eius quo odio vel modi nisi, amet doloremque voluptate, nam id ducimus at ipsum expedita officia deserunt? Excepturi?</p>
                     </li>
-                    <li class="card-item">
-                        <img class="card-img" src="images/image (5).png" alt="фото6">
-                        <span class="card-name">lifestyle</span>
-                        <h2 class="card-title">Cold winter days</h2>
-                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente saepe porro, a deserunt, exercitationem placeat voluptates veniam, amet molestiae et tempora iusto! Aliquid debitis soluta doloremque maiores. Ex, fugit tempore.</p>
+                    <li class="main__card-item">
+                        <img class="main__card-img" src="images/image (5).png" alt="фото6">
+                        <span class="main__card-name">lifestyle</span>
+                        <h2 class="main__card-title">Cold winter days</h2>
+                        <p class="main__card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente saepe porro, a deserunt, exercitationem placeat voluptates veniam, amet molestiae et tempora iusto! Aliquid debitis soluta doloremque maiores. Ex, fugit tempore.</p>
                     </li>
                 </ul>
-                <div class="wrap-button">
-                    <button class="button" type="button">Load more</button>
+                <div class="main__wrap-button">
+                    <button class="main__button" type="button">Load more</button>
                 </div>
-            </div>
+
         </div>
     </main>
 </body>
