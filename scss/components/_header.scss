@@ -2,18 +2,27 @@
     padding-top: 71px;
 }
 .header__nav-list{
-    width: 555px;
+    width: 480px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+    text-align: center;
 }
 .header__nav-link{
     font-size: 14px;
-    color: var(--nav-color);
+    color: $nav-color;
     text-transform: uppercase;
+    margin-bottom: 10px;
+    display: inline-block;
 
     &:hover,
     &:focus{
         color: $hover-color;
+    }
+}
+@media screen and (min-width:768px){
+    .header__nav-list{
+        width: 555px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
     }
 }

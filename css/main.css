@@ -23,60 +23,82 @@ button {
 }
 
 .container {
-  width: 936px;
+  width: 480px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
+img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
 .header {
   padding-top: 71px;
 }
 
 .header__nav-list {
-  width: 555px;
+  width: 480px;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  text-align: center;
 }
 
 .header__nav-link {
   font-size: 14px;
-  color: var(--nav-color);
+  color: #7D7D7D;
   text-transform: uppercase;
+  margin-bottom: 10px;
+  display: inline-block;
 }
 .header__nav-link:hover, .header__nav-link:focus {
   color: #03A9F4;
 }
 
+@media screen and (min-width: 768px) {
+  .header__nav-list {
+    width: 555px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
 .main {
   padding-top: 92px;
   padding-bottom: 66px;
 }
 
 .main__card-list {
-  width: 906px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .main__card-item {
-  width: 420px;
-  margin-bottom: 130px;
+  width: 450px;
+  margin-bottom: 80px;
 }
 
 .main__card-img {
-  width: 420px;
-  height: 280;
   margin-bottom: 32px;
 }
 
@@ -118,4 +140,28 @@ button {
 .main__button:hover, .main__button:focus {
   color: #03A9F4;
   border: 1px solid #03A9F4;
+}
+
+@media screen and (min-width: 768px) {
+  .main__card-list {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .main__card-item {
+    width: 350px;
+    margin-bottom: 100px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .main__card-item {
+    width: 370px;
+    margin-bottom: 130px;
+  }
 }/*# sourceMappingURL=main.css.map */
